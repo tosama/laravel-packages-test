@@ -1,0 +1,19 @@
+{
+    "name": "wuzzuf/testpackage",
+    "description": "Package to test Laravel Packages system",
+    "authors": [
+        {
+            "name": "Basharsoft",
+            "email": "info@basharsoft.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Wuzzuf\\Testpackage\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,137 @@
+[20-Sep-2016 15:45:16 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'A non-empty PSR-4 prefix must end with a namespace separator.' in /var/www/html/laravel-test/vendor/composer/ClassLoader.php:225
+Stack trace:
+#0 /var/www/html/laravel-test/vendor/composer/autoload_real.php(33): Composer\Autoload\ClassLoader->setPsr4('Wuzzuf\\Testpack...', Array)
+#1 /var/www/html/laravel-test/vendor/autoload.php(7): ComposerAutoloaderInitafa0498f32ac267f776f1cad14d8ffc0::getLoader()
+#2 /var/www/html/laravel-test/bootstrap/autoload.php(17): require('/var/www/html/l...')
+#3 /var/www/html/laravel-test/public/index.php(22): require('/var/www/html/l...')
+#4 {main}
+  thrown in /var/www/html/laravel-test/vendor/composer/ClassLoader.php on line 225
+[20-Sep-2016 15:46:08 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'A non-empty PSR-4 prefix must end with a namespace separator.' in /var/www/html/laravel-test/vendor/composer/ClassLoader.php:225
+Stack trace:
+#0 /var/www/html/laravel-test/vendor/composer/autoload_real.php(33): Composer\Autoload\ClassLoader->setPsr4('Wuzzuf\\Testpack...', Array)
+#1 /var/www/html/laravel-test/vendor/autoload.php(7): ComposerAutoloaderInitafa0498f32ac267f776f1cad14d8ffc0::getLoader()
+#2 /var/www/html/laravel-test/bootstrap/autoload.php(17): require('/var/www/html/l...')
+#3 /var/www/html/laravel-test/public/index.php(22): require('/var/www/html/l...')
+#4 {main}
+  thrown in /var/www/html/laravel-test/vendor/composer/ClassLoader.php on line 225
+[20-Sep-2016 15:46:16 Europe/Helsinki] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'A non-empty PSR-4 prefix must end with a namespace separator.' in /var/www/html/laravel-test/vendor/composer/ClassLoader.php:225
+Stack trace:
+#0 /var/www/html/laravel-test/vendor/composer/autoload_real.php(33): Composer\Autoload\ClassLoader->setPsr4('Wuzzuf\\Testpack...', Array)
+#1 /var/www/html/laravel-test/vendor/autoload.php(7): ComposerAutoloaderInitafa0498f32ac267f776f1cad14d8ffc0::getLoader()
+#2 /var/www/html/laravel-test/bootstrap/autoload.php(17): require('/var/www/html/l...')
+#3 /var/www/html/laravel-test/public/index.php(22): require('/var/www/html/l...')
+#4 {main}
+  thrown in /var/www/html/laravel-test/vendor/composer/ClassLoader.php on line 225
+[20-Sep-2016 12:46:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /var/www/html/laravel-test/packages/wuzzuf/testpackage/src/Controllers/IndexController.php on line 14
+[20-Sep-2016 12:46:36 UTC] PHP Stack trace:
+[20-Sep-2016 12:46:36 UTC] PHP   1. {main}() /var/www/html/laravel-test/public/index.php:0
+[20-Sep-2016 12:46:36 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /var/www/html/laravel-test/public/index.php:54
+[20-Sep-2016 12:46:36 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+[20-Sep-2016 12:46:36 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:149
+[20-Sep-2016 12:46:36 UTC] PHP   5. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:104
+[20-Sep-2016 12:46:36 UTC] PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:33
+[20-Sep-2016 12:46:36 UTC] PHP   7. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:137
+[20-Sep-2016 12:46:36 UTC] PHP   8. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:46
+[20-Sep-2016 12:46:36 UTC] PHP   9. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:53
+[20-Sep-2016 12:46:36 UTC] PHP  10. Illuminate\Routing\Router->dispatch() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:267
+[20-Sep-2016 12:46:36 UTC] PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:596
+[20-Sep-2016 12:46:36 UTC] PHP  12. Illuminate\Routing\Router->runRouteWithinStack() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:618
+[20-Sep-2016 12:46:36 UTC] PHP  13. Illuminate\Routing\Router->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+[20-Sep-2016 12:46:36 UTC] PHP  14. Illuminate\Routing\Route->gatherMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:655
+[20-Sep-2016 12:46:36 UTC] PHP  15. Illuminate\Routing\Route->controllerMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:278
+[20-Sep-2016 12:46:36 UTC] PHP  16. Illuminate\Routing\Route->getController() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:316
+[20-Sep-2016 12:46:36 UTC] PHP  17. Illuminate\Foundation\Application->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:203
+[20-Sep-2016 12:46:36 UTC] PHP  18. Illuminate\Container\Container->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:709
+[20-Sep-2016 12:46:36 UTC] PHP  19. Illuminate\Container\Container->build() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:629
+[20-Sep-2016 12:46:36 UTC] PHP  20. ReflectionClass->__construct() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[20-Sep-2016 12:46:36 UTC] PHP  21. spl_autoload_call() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[20-Sep-2016 12:46:36 UTC] PHP  22. Composer\Autoload\ClassLoader->loadClass() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[20-Sep-2016 12:46:36 UTC] PHP  23. Composer\Autoload\includeFile() /var/www/html/laravel-test/vendor/composer/ClassLoader.php:301
+[20-Sep-2016 12:46:36 UTC] PHP  24. include() /var/www/html/laravel-test/vendor/composer/ClassLoader.php:412
+[22-Sep-2016 16:11:08 UTC] PHP Fatal error:  Class 'Wuzzuf\Testpackage\App\Controllers\Wuzzuf\Testpackage\Libarary\Matching' not found in /var/www/html/laravel-test/packages/wuzzuf/testpackage/src/App/Controllers/IndexController.php on line 17
+[22-Sep-2016 16:11:09 UTC] PHP Stack trace:
+[22-Sep-2016 16:11:09 UTC] PHP   1. {main}() /var/www/html/laravel-test/public/index.php:0
+[22-Sep-2016 16:11:09 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() /var/www/html/laravel-test/public/index.php:54
+[22-Sep-2016 16:11:09 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+[22-Sep-2016 16:11:09 UTC] PHP   4. Illuminate\Pipeline\Pipeline->then() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:149
+[22-Sep-2016 16:11:09 UTC] PHP   5. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:104
+[22-Sep-2016 16:11:09 UTC] PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:33
+[22-Sep-2016 16:11:09 UTC] PHP   7. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:137
+[22-Sep-2016 16:11:09 UTC] PHP   8. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:46
+[22-Sep-2016 16:11:09 UTC] PHP   9. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:53
+[22-Sep-2016 16:11:09 UTC] PHP  10. Illuminate\Routing\Router->dispatch() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:267
+[22-Sep-2016 16:11:09 UTC] PHP  11. Illuminate\Routing\Router->dispatchToRoute() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:596
+[22-Sep-2016 16:11:09 UTC] PHP  12. Illuminate\Routing\Router->runRouteWithinStack() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:618
+[22-Sep-2016 16:11:09 UTC] PHP  13. Illuminate\Pipeline\Pipeline->then() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:644
+[22-Sep-2016 16:11:09 UTC] PHP  14. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:104
+[22-Sep-2016 16:11:09 UTC] PHP  15. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:53
+[22-Sep-2016 16:11:09 UTC] PHP  16. Illuminate\Routing\Route->run() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:642
+[22-Sep-2016 16:11:09 UTC] PHP  17. Illuminate\Routing\Route->runController() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:144
+[22-Sep-2016 16:11:09 UTC] PHP  18. Illuminate\Routing\ControllerDispatcher->dispatch() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:190
+[22-Sep-2016 16:11:09 UTC] PHP  19. Illuminate\Routing\Controller->callAction() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:44
+[22-Sep-2016 16:11:09 UTC] PHP  20. call_user_func_array:{/var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:55}() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:55
+[22-Sep-2016 16:11:09 UTC] PHP  21. Wuzzuf\Testpackage\App\Controllers\IndexController->index() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:55
+[22-Sep-2016 16:11:51 UTC] PHP Fatal error:  Cannot redeclare class Wuzzuf\Testpackage\AControllers\IndexController in /var/www/html/laravel-test/packages/wuzzuf/testpackage/src/App/Controllers/IndexController.php on line 0
+[22-Sep-2016 16:11:51 UTC] PHP Stack trace:
+[22-Sep-2016 16:11:51 UTC] PHP   1. {main}() /var/www/html/laravel-test/public/index.php:0
+[22-Sep-2016 16:11:51 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->terminate() /var/www/html/laravel-test/public/index.php:58
+[22-Sep-2016 16:11:51 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:162
+[22-Sep-2016 16:11:51 UTC] PHP   4. Illuminate\Routing\Router->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:192
+[22-Sep-2016 16:11:51 UTC] PHP   5. Illuminate\Routing\Route->gatherMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:655
+[22-Sep-2016 16:11:51 UTC] PHP   6. Illuminate\Routing\Route->controllerMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:278
+[22-Sep-2016 16:11:51 UTC] PHP   7. Illuminate\Routing\Route->getController() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:316
+[22-Sep-2016 16:11:51 UTC] PHP   8. Illuminate\Foundation\Application->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:203
+[22-Sep-2016 16:11:51 UTC] PHP   9. Illuminate\Container\Container->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:709
+[22-Sep-2016 16:11:51 UTC] PHP  10. Illuminate\Container\Container->build() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:629
+[22-Sep-2016 16:11:51 UTC] PHP  11. ReflectionClass->__construct() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 16:11:51 UTC] PHP  12. spl_autoload_call() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 16:11:51 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 16:11:51 UTC] PHP  14. Composer\Autoload\includeFile() /var/www/html/laravel-test/vendor/composer/ClassLoader.php:301
+[22-Sep-2016 16:12:20 UTC] PHP Fatal error:  Cannot redeclare class Wuzzuf\Testpackage\Controllers\IndexController in /var/www/html/laravel-test/packages/wuzzuf/testpackage/src/App/Controllers/IndexController.php on line 0
+[22-Sep-2016 16:12:20 UTC] PHP Stack trace:
+[22-Sep-2016 16:12:20 UTC] PHP   1. {main}() /var/www/html/laravel-test/public/index.php:0
+[22-Sep-2016 16:12:20 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->terminate() /var/www/html/laravel-test/public/index.php:58
+[22-Sep-2016 16:12:20 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:162
+[22-Sep-2016 16:12:20 UTC] PHP   4. Illuminate\Routing\Router->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:192
+[22-Sep-2016 16:12:20 UTC] PHP   5. Illuminate\Routing\Route->gatherMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:655
+[22-Sep-2016 16:12:20 UTC] PHP   6. Illuminate\Routing\Route->controllerMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:278
+[22-Sep-2016 16:12:20 UTC] PHP   7. Illuminate\Routing\Route->getController() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:316
+[22-Sep-2016 16:12:20 UTC] PHP   8. Illuminate\Foundation\Application->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:203
+[22-Sep-2016 16:12:20 UTC] PHP   9. Illuminate\Container\Container->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:709
+[22-Sep-2016 16:12:20 UTC] PHP  10. Illuminate\Container\Container->build() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:629
+[22-Sep-2016 16:12:20 UTC] PHP  11. ReflectionClass->__construct() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 16:12:20 UTC] PHP  12. spl_autoload_call() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 16:12:20 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 16:12:20 UTC] PHP  14. Composer\Autoload\includeFile() /var/www/html/laravel-test/vendor/composer/ClassLoader.php:301
+[22-Sep-2016 19:32:16 UTC] PHP Fatal error:  Cannot redeclare class Wuzzuf\Testpackage\Controllers\IndexController in /var/www/html/laravel-test/packages/wuzzuf/testpackage/src/App/Controllers/IndexController.php on line 0
+[22-Sep-2016 19:32:16 UTC] PHP Stack trace:
+[22-Sep-2016 19:32:16 UTC] PHP   1. {main}() /var/www/html/laravel-test/public/index.php:0
+[22-Sep-2016 19:32:16 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->terminate() /var/www/html/laravel-test/public/index.php:58
+[22-Sep-2016 19:32:16 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:162
+[22-Sep-2016 19:32:16 UTC] PHP   4. Illuminate\Routing\Router->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:192
+[22-Sep-2016 19:32:16 UTC] PHP   5. Illuminate\Routing\Route->gatherMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:655
+[22-Sep-2016 19:32:16 UTC] PHP   6. Illuminate\Routing\Route->controllerMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:278
+[22-Sep-2016 19:32:16 UTC] PHP   7. Illuminate\Routing\Route->getController() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:316
+[22-Sep-2016 19:32:16 UTC] PHP   8. Illuminate\Foundation\Application->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:203
+[22-Sep-2016 19:32:16 UTC] PHP   9. Illuminate\Container\Container->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:709
+[22-Sep-2016 19:32:16 UTC] PHP  10. Illuminate\Container\Container->build() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:629
+[22-Sep-2016 19:32:16 UTC] PHP  11. ReflectionClass->__construct() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 19:32:16 UTC] PHP  12. spl_autoload_call() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 19:32:16 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 19:32:16 UTC] PHP  14. Composer\Autoload\includeFile() /var/www/html/laravel-test/vendor/composer/ClassLoader.php:301
+[22-Sep-2016 19:33:47 UTC] PHP Fatal error:  Cannot redeclare class Wuzzuf\Testpackage\Controllers\IndexController in /var/www/html/laravel-test/packages/wuzzuf/testpackage/src/App/Controllers/IndexController.php on line 0
+[22-Sep-2016 19:33:47 UTC] PHP Stack trace:
+[22-Sep-2016 19:33:47 UTC] PHP   1. {main}() /var/www/html/laravel-test/public/index.php:0
+[22-Sep-2016 19:33:47 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->terminate() /var/www/html/laravel-test/public/index.php:58
+[22-Sep-2016 19:33:47 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:162
+[22-Sep-2016 19:33:47 UTC] PHP   4. Illuminate\Routing\Router->gatherRouteMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:192
+[22-Sep-2016 19:33:47 UTC] PHP   5. Illuminate\Routing\Route->gatherMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Router.php:655
+[22-Sep-2016 19:33:47 UTC] PHP   6. Illuminate\Routing\Route->controllerMiddleware() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:278
+[22-Sep-2016 19:33:47 UTC] PHP   7. Illuminate\Routing\Route->getController() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:316
+[22-Sep-2016 19:33:47 UTC] PHP   8. Illuminate\Foundation\Application->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Routing/Route.php:203
+[22-Sep-2016 19:33:47 UTC] PHP   9. Illuminate\Container\Container->make() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:709
+[22-Sep-2016 19:33:47 UTC] PHP  10. Illuminate\Container\Container->build() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:629
+[22-Sep-2016 19:33:47 UTC] PHP  11. ReflectionClass->__construct() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 19:33:47 UTC] PHP  12. spl_autoload_call() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 19:33:47 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /var/www/html/laravel-test/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+[22-Sep-2016 19:33:47 UTC] PHP  14. Composer\Autoload\includeFile() /var/www/html/laravel-test/vendor/composer/ClassLoader.php:301
