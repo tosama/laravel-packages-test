@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        Commands\ApiDocCommand::class
+        Commands\ApiDoc::class,
+        Commands\PhpCodeSniffer::class
     ];
 
     /**
